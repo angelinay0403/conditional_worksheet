@@ -14,8 +14,18 @@ if(competitorWeigh < 250){
 	console.log ("the competitor will qualify!");
 }
 
+// Expression with conditionals.
 
 //last chance for gas!
 var carMPG = 25 // miles per gallon.
-var carReadingTank = 50 // in percent.
+var carReadingTank = 100 // in percent.
 var carGascapacity = 12 // gallons
+
+// if the car has more than 200 miles in gas can make it acrross the dessert.
+if("carMPG * carGascapacity > 200"){
+	//if is more than 200.
+	console.log ("The car can cross the dessert!");
+}else{
+	//if is less than 200
+	console.log ( "The car can't cross the dessert!");
+}
