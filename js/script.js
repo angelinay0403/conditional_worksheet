@@ -34,12 +34,15 @@ if("carMPG * carGascapacity > 200"){
 
 // Check The Login.
 
-var usernameEnter = joe1916
-var passwordEnter = Joe1918
-var correctUsername = Joe1919
-var correctPassword = joe1918
 
-if(usernameEnter == correctUsername && passwordEnter == correctPassword){
+var correctUsername = Joe1919;
+var passwordEntered = Joe1918;
+var correctPassword = joe1918;
+
+if(usernameEntered == correctUsername && passwordEntered == correctPassword){
 	// if the user name enter is the same as the correct username and the password enter is the same as correct password
 	console.log("Welcome Joe1919!") // this is going to print out.
+}else{
+	console.log("user not found. try again!")
 }
+
