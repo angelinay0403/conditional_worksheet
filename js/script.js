@@ -34,15 +34,25 @@ if("carMPG * carGascapacity > 200"){
 
 // Check The Login.
 
+var correctUsername = "janes20"
+var correctPassword = "love2205"
+var usernameEntered = "janes205"
+var passwordEntered = "love2502"
 
-var correctUsername = Joe1919;
-var passwordEntered = Joe1918;
-var correctPassword = joe1918;
-
-if(usernameEntered == correctUsername && passwordEntered == correctPassword){
-	// if the user name enter is the same as the correct username and the password enter is the same as correct password
-	console.log("Welcome Joe1919!") // this is going to print out.
+// if the user nae enter is the same as the correct user name AND the password enter is the same as correct password.
+if("janes205 === janes20 && love2205 === love2502"){
+	console.log("welcome janes20!") // will print out.
+	
+	// if the correct username is not the same as the username entered or the correct pasword is not the same as the password entered
+}else if("correctUsername != usernameEntered || correctPassword != passwordEntered"){
+	console.log("user name not found. please try again!")
+	//else: meaning user name enter right but password enter wrong.
 }else{
-	console.log("user not found. try again!")
+	console.log("password does not match our record")
 }
+
+
+
+
+
 
