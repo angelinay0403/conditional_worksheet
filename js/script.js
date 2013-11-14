@@ -40,7 +40,7 @@ var usernameEntered = "janes205"
 var passwordEntered = "love2502"
 
 // if the user nae enter is the same as the correct user name AND the password enter is the same as correct password.
-if("janes205 === janes20 && love2205 === love2502"){
+if("correctUsername === usernameEntered && correctPassword === passwordEntered"){
 	console.log("welcome janes20!") // will print out.
 	
 	// if the correct username is not the same as the username entered or the correct pasword is not the same as the password entered
