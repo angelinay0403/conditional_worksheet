@@ -29,3 +29,12 @@ if("carMPG * carGascapacity > 200"){
 	//if is less than 200
 	console.log ( "The car can't cross the dessert!");
 }
+
+//Multiple Results.
+
+// Check The Login.
+
+var usernameEnter = joe19
+var passwordEnter = Joe1918
+var correctUsername = Joe1919
+var correctPassword = joe1918
