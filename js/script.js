@@ -52,7 +52,20 @@ if("correctUsername === usernameEntered && correctPassword === passwordEntered")
 }
 
 
+// Multiple Conditions.
 
+// Movie ticket price.
+// if customer is less than 12 get discount price , if the customer is older but watch the movie from 3 to 5 get discount price otherwise get full price
+//of 12 dollars.
 
+var movieTime = 4
+var customerAge = 16
+
+// if customer age is greater than 12 pay full price.
+if(customerAge < 12){
+	console.log("ticket price 12 dollars")
+}else{
+	console.log("ticket price 7")
+}
 
 
